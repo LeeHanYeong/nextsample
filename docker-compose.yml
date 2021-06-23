@@ -6,6 +6,7 @@ services:
       context: .
       dockerfile: Dockerfile
     environment:
-      - ABCD
+      - NEXT_PUBLIC_ABCD
+      - NORMAL_ABCD
     ports:
       - 3000:3000
